@@ -14,11 +14,11 @@ draft: false
 
 ###### 1) CN Installation
 {{< highlight html >}}
-sudo curl -o /etc/yum.repos.d/kaia.repo https://packages.kaia.io/config/rhel/7/kaia.repo && sudo yum install kcnd
+sudo curl -o /etc/yum.repos.d/kaia.repo https://packages.kaia.io/config/rhel/9-stream/kaia.repo && sudo yum install kcnd
 {{< /highlight >}}
 ###### 2) PN Installation
 {{< highlight html >}}
-sudo curl -o /etc/yum.repos.d/kaia.repo https://packages.kaia.io/config/rhel/7/kaia.repo && sudo yum install kpnd
+sudo curl -o /etc/yum.repos.d/kaia.repo https://packages.kaia.io/config/rhel/9-stream/kaia.repo && sudo yum install kpnd
 {{< /highlight >}}
 {{< line_break >}}
 
@@ -27,11 +27,11 @@ sudo curl -o /etc/yum.repos.d/kaia.repo https://packages.kaia.io/config/rhel/7/k
 
 ###### 1) CN Installation
 {{< highlight html >}}
-$ yum install kcnd-vX.X.X.el7.x86_64.rpm
+$ yum install kcnd-vX.X.X.el9.x86_64.rpm
 {{< /highlight >}}
 ###### 2) PN Installation
 {{< highlight html >}}
-$ yum install kpnd-vX.X.X.el7.x86_64.rpm
+$ yum install kpnd-vX.X.X.el9.x86_64.rpm
 {{< /highlight >}}
 {{< line_break >}}
 
@@ -93,17 +93,17 @@ $ export PATH=$PATH:~/downloaded/path/kcn-linux-amd64/bin
 {{< /highlight >}}
 The other sections assume that the path is added to the variable.
 
-#### Create k*nd.service
+#### Create kcnd and kpnd service
 {{< highlight html >}}
 # vi /etc/systemd/system/k*nd.service
 
 [Unit]
-Description= kcnd Service
+Description= k*nd Service
 
 [Service]
 Type=forking
-ExecStart=<DOWNLOADED_PATH>/bin/kcnd start
-ExecStop=<DOWNLOADED_PATH>/bin/kcnd stop
+ExecStart=<DOWNLOADED_PATH>/bin/k*nd start
+ExecStop=<DOWNLOADED_PATH>/bin/k*nd stop
 
 [Install]
 WantedBy=multi-user.target
@@ -111,7 +111,7 @@ WantedBy=multi-user.target
 
 #### Enable Service
 {{< highlight html >}}
-systemctl enable kcnd.service
+systemctl enable k*nd.service
 {{< /highlight >}}
 
 {{< line_break >}}

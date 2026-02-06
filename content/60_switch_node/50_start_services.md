@@ -1,8 +1,8 @@
 ---
 title: "Replace nodekey and bls-nodekey"
 date: 2022-07-11T18:42:35+09:00
-weight: 30
-pre: "<b>C. </b>"
+weight: 50
+pre: "<b>E. </b>"
 draft: false
 ---
 
@@ -10,7 +10,7 @@ draft: false
 ##### This Task should work with Kaia Foundation.
 ##### Please starr this task after Kaia Foundation remove tour CN from the Validator.
 
-##### 1. Start Services
+##### 5. Start Services
 ###### 1) CN 
 {{< highlight html >}}
 $ sudo systemctl start kcnd
@@ -23,9 +23,7 @@ $ sudo systemctl start telegraf
 $ sudo systemctl start kpnd
 $ sudo systemctl start telegraf
 {{< /highlight >}}
-{{< line_break >}}
 
-{{< line_break >}}
 {{< line_break >}}
 {{< line_break >}}
 

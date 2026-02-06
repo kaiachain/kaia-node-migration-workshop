@@ -1,8 +1,8 @@
 ---
 title: "Replace nodekey and bls-nodekey"
 date: 2022-07-11T18:42:35+09:00
-weight: 30
-pre: "<b>C. </b>"
+weight: 20
+pre: "<b>B. </b>"
 draft: false
 ---
 
@@ -21,9 +21,7 @@ $ mv /<Data_DIR>/klay/nodekey /<Data_DIR>/data/klay/nodekey_temp
 $ mv /<Data_DIR>/klay/bls-nodekey /<Data_DIR>/data/klay/bls-nodekey_temp
 $ sudo vi /<Data_DIR>/nodekey # Paste the Nodekey what you made
 {{< /highlight >}}
-{{< line_break >}}
 
-{{< line_break >}}
 {{< line_break >}}
 {{< line_break >}}
 

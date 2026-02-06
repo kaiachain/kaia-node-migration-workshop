@@ -8,7 +8,7 @@ pre = "<b>5. </b>"
 
 
 
-##### Now, we are ready to start Kaia service for Kairos.
+##### Now, we are ready to start Kaia service for For Block Sync.
 
 
 {{< line_break >}}

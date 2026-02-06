@@ -18,14 +18,14 @@ _** The latest chaindata name can be different with this example due to the date
 {{< highlight html >}}
 $ URL=`curl -s https://packages.kaia.io/mainnet/pruning-chaindata/  |grep latest |awk -F'"' '{print $2}'`
 $ echo $URL
-https://s3.ap-northeast-2.amazonaws.com/klaytn-chaindata/mainnet/pruning/kaia-mainnet-pruning-chaindata-20241109011112.tar.gz
+https://s3.ap-northeast-2.amazonaws.com/klaytn-chaindata/mainnet/pruning/kaia-mainnet-pruning-chaindata-2026**************.tar.gz
 $ wget $URL
 {{< /highlight >}}
 ###### 2) For PN
 {{< highlight html >}}
 $ URL=`curl -s https://packages.kaia.io/mainnet/pruning-chaindata/ |grep latest |awk -F'"' '{print $2}'`
 $ echo $URL
-https://s3.ap-northeast-2.amazonaws.com/klaytn-chaindata/mainnet/pruning/kaia-mainnet-pruning-chaindata-20241109011112.tar.gz
+https://s3.ap-northeast-2.amazonaws.com/klaytn-chaindata/mainnet/pruning/kaia-mainnet-pruning-chaindata-2026**************.tar.gz
 $ wget $URL
 {{< /highlight >}}
 
@@ -38,7 +38,7 @@ _**[Axel](https://github.com/axel-download-accelerator/axel) tries to accelerate
 $ sudo yum install axel -y
 $ URL=`curl -s https://packages.kaia.io/mainnet/pruning-chaindata/ |grep latest |awk -F'"' '{print $2}'`
 $ echo $URL
-https://s3.ap-northeast-2.amazonaws.com/klaytn-chaindata/mainnet/pruning/kaia-mainnet-pruning-chaindata-20241109011112.tar.gz
+https://s3.ap-northeast-2.amazonaws.com/klaytn-chaindata/mainnet/pruning/kaia-mainnet-pruning-chaindata-2026**************.tar.gz
 $ axel -n8 $URL
 {{< /highlight >}}
 ###### 2) For PN
@@ -48,7 +48,7 @@ $ axel -n8 $URL
 $ sudo yum install axel -y
 $ URL=`curl -s https://packages.kaia.io/mainnet/pruning-chaindata/ |grep latest |awk -F'"' '{print $2}'`
 $ echo $URL
-https://s3.ap-northeast-2.amazonaws.com/klaytn-chaindata/mainnet/pruning/kaia-mainnet-pruning-chaindata-20241109011112.tar.gz
+https://s3.ap-northeast-2.amazonaws.com/klaytn-chaindata/mainnet/pruning/kaia-mainnet-pruning-chaindata-2026**************.tar.gz
 $ axel -n8 $URL
 {{< /highlight >}}
 

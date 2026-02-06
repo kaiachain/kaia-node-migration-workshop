@@ -1,16 +1,12 @@
 ---
 title: "Share the KNI Value for Node Information"
 date: 2022-07-11T18:42:35+09:00
-weight: 30
-pre: "<b>C. </b>"
+weight: 60
+pre: "<b>F. </b>"
 draft: false
 ---
 
-{{< line_break >}}
-##### This Task should work with Kaia Foundation.
-##### Please starr this task after Kaia Foundation remove tour CN from the Validator.
-
-##### 1. Start Services
+##### 6. Share the KNI Value
 ###### 1) CN 
 {{< highlight html >}}
 $ sudo kcn attach --exec "admin.nodeInfo.kni" --datadir DATA_DIR

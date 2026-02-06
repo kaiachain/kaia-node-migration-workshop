@@ -15,14 +15,14 @@ _** You can refer [this document](https://docs.kaia.io/misc/operation/node-log/#
 ###### 1) For CN, Connect PN for Block Sync - Use KNI Value of what you made 
 {{< highlight html >}}
 $ sudo kcn attach --exec "admin.addPeer(PN KNI)" --datadir DATA_DIR
-$ tail <your_kaia_home_path>/kcnd/log/kcnd.out
+$ tail /Log_Path/kcnd.out
 INFO Inserted a new block number=14 hash=13cbfc…f007fc txs=0 gas=0 elapsed=793.458µs processTxs=167ns finalize=157.708µs validateState=7.542µs totalWrite=443.417µs trieWrite=256.667µs
 {{< /highlight >}}
 
 ###### 2) For PN, Connect PN for Block Sync - Use KNI Value of what you made
 {{< highlight html >}}
 $ sudo kpn attach --exec "admin.addPeer(PN KNI)" --datadir DATA_DIR
-$ tail <your_kaia_home_path>/kcnd/log/kpnd.out
+$ tail /Log_Path/kpnd.out
 INFO Inserted a new block number=14 hash=13cbfc…f007fc txs=0 gas=0 elapsed=793.458µs processTxs=167ns finalize=157.708µs validateState=7.542µs totalWrite=443.417µs trieWrite=256.667µs
 {{< /highlight >}}
 

@@ -1,19 +1,16 @@
 ---
 title: "Upate Telegarf Conf"
 date: 2022-07-11T18:42:35+09:00
-weight: 30
-pre: "<b>C. </b>"
+weight: 40
+pre: "<b>D. </b>"
 draft: false
 ---
 
 ##### 4. Restore the static-nodes.json on New Nodes
 {{< highlight html >}}
-$ sudo vi /etc/telegraf/telegraf.d/kaia.conf # remove "-new"
+$ sudo vi /etc/telegraf/telegraf.d/kaia.conf # remove "-new" from the host and instance
 {{< /highlight >}}
-{{< line_break >}}
 
-
-{{< line_break >}}
 {{< line_break >}}
 {{< line_break >}}
 

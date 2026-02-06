@@ -11,12 +11,12 @@ draft: false
 
 ###### 1) For CN,
 {{< highlight html >}}
-$ tar -C <your_kaia_home_path>/kcnd/data -xvf kaia-mainnet-pruning-chaindata-2026**************.tar.gz --exclude klay/chaindata/receipts
+$ tar -C /Data_DIR_Path -xvf kaia-mainnet-pruning-chaindata-2026**************.tar.gz --exclude klay/chaindata/receipts
 {{< /highlight >}}
 
 ###### 2) For PN,
 {{< highlight html >}}
-$ tar -C <your_kaia_home_path>/kpnd/data -xvf kaia-mainnet-pruning-chaindata-****************.tar.gz --exclude klay/chaindata/receipts
+$ tar -C /Data_DIR_Path -xvf kaia-mainnet-pruning-chaindata-2026**************.tar.gz --exclude klay/chaindata/receipts
 {{< /highlight >}}
 
 {{< line_break >}}

@@ -11,9 +11,9 @@ draft: false
 
 ###### 1) For both CN and PN,
 {{< highlight html >}}
-$ rm kaia-mainnet-pruing-chaindata-****************.tar.gz
+$ rm kaia-mainnet-pruing-chaindata-2026*********************.tar.gz
 {{< /highlight >}}
 
-{{< line_break >}}
+
 {{< line_break >}}
 If you finish this step, please click the next button ```>``` on the right side of this page.

@@ -11,10 +11,7 @@ draft: false
 {{< highlight html >}}
 $ sudo vi /<Data_DIR>/static-nodes.json # Paste the static-nodes.json what you made
 {{< /highlight >}}
-{{< line_break >}}
 
-
-{{< line_break >}}
 {{< line_break >}}
 {{< line_break >}}
 
