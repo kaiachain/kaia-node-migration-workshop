@@ -3,7 +3,7 @@ title = "Swtich Node to New one"
 date = 2022-07-11T18:26:28+09:00
 weight = 6
 type = "chapter"
-pre = "<b>5. </b>"
+pre = "<b>6. </b>"
 +++
 
 
