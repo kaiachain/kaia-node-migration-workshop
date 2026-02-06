@@ -8,7 +8,7 @@ draft = false
 +++
 
 
-The prerequisites for joining Kairos network are covered in this chapter. 
+The prerequisites for Migrating CCN are covered in this chapter. 
 
 {{< line_break >}}
 {{< line_break >}}
