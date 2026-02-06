@@ -19,7 +19,7 @@ tcp 32323-32324 / udp 32323.
 {{< line_break >}}
 Add IP address : Your New CN IP.  
 {{< line_break >}}
-After you complete this, Please push the emoji<img src="/images/2705.png" style="display: inline; margin: 0; vertical-align: middle; height: 1.2em;">
+After you complete this, Please push the emoji ![imoge](/images/2705.png)
 {{% /notice %}}
 
 
