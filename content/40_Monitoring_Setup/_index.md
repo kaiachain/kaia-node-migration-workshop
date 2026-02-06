@@ -1,5 +1,5 @@
 +++
-title = "Configure Kairos Network"
+title = "Monitoring Setup"
 date = 2022-07-11T10:25:55+09:00
 weight = 4
 type = "chapter"
@@ -8,7 +8,7 @@ pre = "<b>4. </b>"
 
 
 
-##### Now, we are going to re-configure networks to join Kairos.
+##### Now, we are configuring Monitoring Setup.
 ##### 
 
 {{< line_break >}}
