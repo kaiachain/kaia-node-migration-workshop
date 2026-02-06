@@ -1,5 +1,5 @@
 +++
-title = "Reset Network Configuration"
+title = "New Node Configuration"
 date = 2022-07-11T10:24:36+09:00
 weight = 2
 type = "chapter"

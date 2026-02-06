@@ -1,7 +1,7 @@
 +++
 title = "Start the services For Block Sync"
 date = 2022-07-11T18:26:28+09:00
-weight = 5
+weight = 7
 type = "chapter"
 pre = "<b>5. </b>"
 +++

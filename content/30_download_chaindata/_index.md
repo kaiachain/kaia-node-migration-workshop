@@ -1,5 +1,5 @@
 +++
-title = "New Node Configuration"
+title = "Fast Sync Chaindata"
 date = 2022-07-11T10:25:05+09:00
 weight = 3
 type = "chapter"

@@ -1,7 +1,7 @@
 +++
 title = "Conclusion"
 date = 2022-07-11T18:51:05+09:00
-weight = 6
+weight = 8
 type = "chapter"
 pre = "<b>6. </b>"
 +++

@@ -71,6 +71,12 @@ sudo kpn attach --exec "admin.nodeInfo.kni" --datadir DATA_DIR
 {{< highlight html >}}
 change @0.0.0.0:0 part to @Your_public_IP_address:32323?ntype=pn
 {{< /highlight >}}
+###### 6) static-nodes.json 
+{{< highlight html >}}
+/Data_Dir/static-nodes.json
+{{< /highlight >}}
+{{< line_break >}}
+
 
 
 {{< line_break >}}
