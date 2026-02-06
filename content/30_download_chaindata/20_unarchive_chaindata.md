@@ -8,13 +8,6 @@ draft: false
 
 {{< line_break >}}
 ##### 2. Extract the chaindata downloaded to the DATA_DIR.
-
-###### 1) For CN,
-{{< highlight html >}}
-$ tar -C /Data_DIR_Path -xvf kaia-mainnet-pruning-chaindata-2026**************.tar.gz --exclude klay/chaindata/receipts
-{{< /highlight >}}
-
-###### 2) For PN,
 {{< highlight html >}}
 $ tar -C /Data_DIR_Path -xvf kaia-mainnet-pruning-chaindata-2026**************.tar.gz --exclude klay/chaindata/receipts
 {{< /highlight >}}
