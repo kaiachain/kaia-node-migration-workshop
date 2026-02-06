@@ -1,3 +1,12 @@
+---
+title: "Node Configuration"
+date: 2022-07-11T19:18:57+09:00
+weight: 30
+pre: "<b>C. </b>"
+draft: false
+---
+{{< line_break >}}
+
 ### 1. Data, Log Directory Creation
 Considering the fact that the size of Kaia blockchain data is always increased. &nbsp;
 

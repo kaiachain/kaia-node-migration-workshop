@@ -1,5 +1,5 @@
 +++
-title = "Kaia - CCO Onboarding - Kairos"
+title = "Kaia - Node Migration"
 date = 2022-07-11T10:01:37+09:00
 weight = 0
 type = "chapter"

@@ -93,6 +93,27 @@ $ export PATH=$PATH:~/downloaded/path/kcn-linux-amd64/bin
 {{< /highlight >}}
 The other sections assume that the path is added to the variable.
 
+#### Create k*nd.service
+{{< highlight html >}}
+# vi /etc/systemd/system/k*nd.service
+
+[Unit]
+Description= kcnd Service
+
+[Service]
+Type=forking
+ExecStart=<DOWNLOADED_PATH>/bin/kcnd start
+ExecStop=<DOWNLOADED_PATH>/bin/kcnd stop
+
+[Install]
+WantedBy=multi-user.target
+{{< /highlight >}}
+
+#### Enable Service
+{{< highlight html >}}
+systemctl enable kcnd.service
+{{< /highlight >}}
+
 {{< line_break >}}
 {{< line_break >}}
 {{< line_break >}}
