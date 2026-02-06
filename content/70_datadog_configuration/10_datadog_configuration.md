@@ -1,5 +1,5 @@
 ---
-title: "Datadog Configuration"
+title: "Datadog Installation"
 date: 2022-07-20T15:33:50+09:00
 weight: 10
 pre: "<b>A. </b>"
