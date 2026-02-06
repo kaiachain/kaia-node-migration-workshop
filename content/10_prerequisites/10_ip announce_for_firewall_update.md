@@ -15,7 +15,7 @@ draft: false
 **Please update your firewall configuration of CN.**
 **tcp 32323-32324 / udp 32323.**
 **Add IP address : Your New CN IP.**
-**After you complete this, Please push the emoji!.**
+**After you complete this, Please push the emoji!![imoge](/images/2705.png).**
 {{% /notice %}}
 {{< line_break >}}
 
