@@ -1,14 +1,14 @@
 +++
-title = "Start the services For Block Sync"
+title = "DataDog Installation"
 date = 2022-07-11T18:26:28+09:00
 weight = 7
 type = "chapter"
-pre = "<b>5. </b>"
+pre = "<b>7. </b>"
 +++
 
 
 
-##### Now, we are ready to start Kaia service for Kairos.
+##### Now, We install the Datadog.
 
 
 {{< line_break >}}
