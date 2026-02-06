@@ -9,9 +9,9 @@ draft: false
 
 ##### 1. *(Only for CN)* New IP announce for GC Firewall update 
 
-{{% notice to Slack_Channel %}}
+{{% notice note %}}
 @channel  
-Firewall update for CCO changes.
+Firewall update for CCO changes.  
 {{< line_break >}}
 Please update your firewall configuration of CN.  
 {{< line_break >}}
@@ -19,9 +19,8 @@ tcp 32323-32324 / udp 32323.
 {{< line_break >}}
 Add IP address : Your New CN IP.  
 {{< line_break >}}
-After you complete this, Please push the emoji![imoge](/images/2705.png)
+After you complete this, Please push the emoji ![emoge](/images/2705.png)
 {{% /notice %}}
-{{< line_break >}}
 
 
 
