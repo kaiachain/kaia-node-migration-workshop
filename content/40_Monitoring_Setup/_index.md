@@ -8,7 +8,7 @@ pre = "<b>4. </b>"
 
 
 
-##### Now, we are configuring Monitoring Setup.
+##### Now, we are configuring Telegraf Setup.
 ##### 
 
 {{< line_break >}}

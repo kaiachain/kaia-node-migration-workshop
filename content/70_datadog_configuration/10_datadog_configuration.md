@@ -1,8 +1,8 @@
 ---
 title: "Datadog Configuration"
 date: 2022-07-20T15:33:50+09:00
-weight: 60
-pre: "<b>F. </b>"
+weight: 10
+pre: "<b>A. </b>"
 draft: false
 ---
 

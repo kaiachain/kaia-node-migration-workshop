@@ -8,7 +8,7 @@ pre = "<b>2. </b>"
 
 
 
-###### In this chapter, you will reset the Private Network configuration.
+###### In this chapter, you will install and configuration the New nodes.
 
 {{< line_break >}}
 {{< line_break >}}
