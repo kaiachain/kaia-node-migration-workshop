@@ -1,5 +1,5 @@
 +++
-title = "Resrote Nodekey"
+title = "Swtich Node to New one"
 date = 2022-07-11T18:26:28+09:00
 weight = 6
 type = "chapter"
@@ -8,7 +8,7 @@ pre = "<b>5. </b>"
 
 
 
-##### Now, we are ready to start Kaia service for Kairos.
+##### Now, we are ready to Change to New Nodes.
 
 
 {{< line_break >}}
