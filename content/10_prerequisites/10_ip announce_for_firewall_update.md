@@ -12,14 +12,14 @@ draft: false
 {{% notice to Slack_Channel %}}
 @channel  
 Firewall update for CCO changes.
-
+{{< line_break >}}
 Please update your firewall configuration of CN.  
-
+{{< line_break >}}
 tcp 32323-32324 / udp 32323.  
-
+{{< line_break >}}
 Add IP address : Your New CN IP.  
-
-After you complete this, Please push the emoji!![imoge](/images/2705.png).
+{{< line_break >}}
+After you complete this, Please push the emoji![imoge](/images/2705.png)
 {{% /notice %}}
 {{< line_break >}}
 
