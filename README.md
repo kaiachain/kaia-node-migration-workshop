@@ -1,4 +1,4 @@
-# Kaia Workshop - Kairos Setup
+# Node Migration Workshop
 
 ![Kaia Docs](/images/Kaia-docs.png)
 
@@ -13,10 +13,10 @@
 
 ## Overview
 <!-- Write Overview about this project -->
-**If you want to join Kaia Kairos network, this workshop will be the best guidance. Below are included in this workshop.**
-- Prerequisites (Firewall & Package Installation)
-- Chaindata Fast sync with Kairos
-- Kairos Network Configuration
+**If you want to Migrate node, this workshop will be the best guidance. Below are included in this workshop.**
+- Prerequisites (Firewall & Backup resources)
+- Chaindata Fast sync
+- Network Configuration
 - Service Status Management
 
 ## How this repository works

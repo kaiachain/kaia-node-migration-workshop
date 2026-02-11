@@ -7,7 +7,7 @@ draft: false
 ---
 
 {{< line_break >}}
-##### 4. Take a look at Grafana dashboard to confirm if your nodes are correctly joined to Kairos network.
+##### 4. Take a look at Grafana dashboard to confirm if your nodes are correctly configure the node.
 
 **Link : [Grafana](http://node.kaia.io:3000/d/tc1SOM4Zz/mainnet-dashboard?orgId=1&from=now-1m&to=now&timezone=browser&var-nodetype=cn&var-host=$__all)**
 {{< line_break >}}

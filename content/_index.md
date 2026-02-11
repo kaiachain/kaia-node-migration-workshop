@@ -10,5 +10,5 @@ draft = false
 
 ![Kaia Logo](/images/Logo-1.png)
    
-This online instruction let you join Kaia Kairos network.    
+This online instruction let you migrate CCN.    
 If Consensus/Proxy node setup is already completed, you can start with chapter 2.   
